@@ -91,10 +91,10 @@ app.get('/:file.js', function (req, res) {
 });
 
 app.post('/', function (req, res, next) {
-	if (req.body.generate == "Cancel") {
-		res.sendFile('index.html', { root: __dirname });
-		console.log("User cancel the input.");
-	} else {
+  if (req.body.generate == "Cancel") {
+    res.sendFile('index.html', { root: __dirname });
+    console.log("User cancel the input.");
+  } else {
     const command = "../mmcesim/bin/mmcesim -h";
     var result = '';
     var child = exec(command);
