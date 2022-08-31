@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <title>mmCEsim Web App</title>
   <link rel="icon" href="https://mmcesim.org/favicon.ico">
-  <link rel="stylesheet" href="https://unpkg.com/@primer/css@^20.4.3/dist/primer.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/@primer/css@^20.4.4/dist/primer.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="jquery-3.6.0.min.js"></script>
   <script src="index.js"></script>
@@ -15,7 +15,7 @@
     <div class="Header">
       <div class="Header-item">
         <a href="/" class="Header-link f4 d-flex flex-items-center">
-          <img height="32" alt="Auto HDW" src="https://img.mmcesim.org/logo/mmCEsim_logo_128.png">
+          <img height="32" alt="" src="https://img.mmcesim.org/logo/mmCEsim_logo_128.png">
           <pre> </pre>
           <span>mmCEsim Web App</span>
         </a>
@@ -38,8 +38,24 @@
       <div class="Header-item hide-sm">
         <a href="https://github.com/mmcesim" class="Header-link">GitHub</a>
       </div>
+      <div class="Header-item d-sm-none">
+        <details class="dropdown details-reset details-overlay d-inline-block">
+          <summary class="Header-link" aria-haspopup="true" type="button" aria-haspopup="true">
+            <svg aria-hidden="true" role="img" class="octicon octicon-three-bars" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+            <span>&nbsp;&nbsp;</span>
+          </summary>
+          <ul class="dropdown-menu dropdown-menu-sw">
+            <div class="dropdown-header">
+              External Links
+            </div>
+            <li><a class="dropdown-item" href="https://mmcesim.org/doc/web" target="_blank">About</a></li>
+            <li><a class="dropdown-item" href="https://mmcesim.org" target="_blank">Website</a></li>
+            <li><a class="dropdown-item" href="https://github.com/mmcesim" target="_blank">GitHub</a></li>
+          </ul>
+        </details>
+      </div>
       <div class="Header-item mr-0">
-        v0.0.1
+        v0.0.2
       </div>
     </div>
     <div class="container-lg mx-auto">
@@ -53,7 +69,7 @@
             <nav class="UnderlineNav" aria-label="Tab Selection">
               <div class="UnderlineNav-body">
                 <a class="UnderlineNav-item" href="javascript:void()" aria-current="page">
-                  <svg class="hide-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path class="UnderlineNav-octicon octicon octicon-tools" version="1.1" fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+                  <svg class="hide-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path class="octicon UnderlineNav-octicon octicon-tools" version="1.1" fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
                   <span><span class="hide-md">&nbsp;&nbsp;</span>Project</span>
                 </a>
                 <a class="UnderlineNav-item" href="javascript:void()">

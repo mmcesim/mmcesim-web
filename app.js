@@ -19,7 +19,7 @@ const header =
   '<meta charset="utf-8"/>' +
   '<title>mmCEsim Web App</title>' +
   '<link rel="icon" href="https://mmcesim.org/favicon.ico">' +
-  '<link rel="stylesheet" href="https://unpkg.com/@primer/css@^20.4.3/dist/primer.css"/>' +
+  '<link rel="stylesheet" href="https://unpkg.com/@primer/css@^20.4.4/dist/primer.css"/>' +
   '<meta name="viewport" content="width=device-width, initial-scale=1.0">' +
   '<script src="jquery-3.6.0.min.js"></script>' +
   '<script src="index.js"></script>' +
@@ -53,7 +53,7 @@ const header =
   '<a href="https://github.com/mmcesim" class="Header-link">GitHub</a>' +
   '</div>' +
   '<div class="Header-item mr-0">' +
-  'v0.0.1' +
+  'v0.0.2' +
   '</div>' +
   '</div>' +
   '<div class="container-lg mx-auto">' +

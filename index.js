@@ -3,4 +3,7 @@ window.addEventListener('load', function(){
     $('input').val('');
     $("#project_descriptions").val('');
   });
+  $('.dropdown-menu').click(function() {
+    $('.dropdown').removeAttr("open");
+  });
 });
