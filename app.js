@@ -52,6 +52,21 @@ const header =
   '<div class="Header-item hide-sm">' +
   '<a href="https://github.com/mmcesim" class="Header-link">GitHub</a>' +
   '</div>' +
+  '<div class="Header-item d-sm-none">' +
+  '<details class="dropdown details-reset details-overlay d-inline-block">' +
+  '<summary class="Header-link btn" aria-haspopup="true" type="button" aria-haspopup="true" style="color:rgb(173, 186, 199); background-color :rgb(55, 62, 71); box-shadow: transparent 0px 0px, transparent 0px 0px; border: 1px solid rgba(205, 217, 229, 0.1); border-radius: 6px; padding: 5px 16px; line-height: 20px;">' +
+  '<svg aria-hidden="true" role="img" class="octicon octicon-three-bars" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible;color:rgb(173, 186, 199);"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>' +
+  '</summary>' +
+  '<ul class="dropdown-menu dropdown-menu-s">' +
+  '<div class="dropdown-header">' +
+  'External Links' +
+  '</div>' +
+  '<li><a class="dropdown-item" href="https://mmcesim.org/doc/web" target="_blank">About</a></li>' +
+  '<li><a class="dropdown-item" href="https://mmcesim.org" target="_blank">Website</a></li>' +
+  '<li><a class="dropdown-item" href="https://github.com/mmcesim" target="_blank">GitHub</a></li>' +
+  '</ul>' +
+  '</details>' +
+  '</div>' +
   '<div class="Header-item mr-0">' +
   'v0.0.2' +
   '</div>' +
