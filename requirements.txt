@@ -1,1 +1,1 @@
-git+https://github.com/mmcesim/mmcesim@master#egg=mmcesim
+git+https://github.com/mmcesim/mmcesim.git
